@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+div>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+
+}
+
+main{
+    margin-top: 7%;
+    margin-left: 8%;
+    width: 50%;
+    height: 160vh;
+    border: 1px solid red;
+}
+
+section{
+    display: flex;
+    margin-bottom: 3%;
+}
+.produto{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    margin-left: 3%;
+    border-radius: 8px;
+}
+
+.informacoes{
+    display: flex;
+    margin-left: 3.5%;
+    margin-bottom: 3%;
+    gap: 15%;
+    line-height: 24px;
+}
+.titulo{
+    color: darkgrey;
+}
+
+.preco{
+    color: rgb(180, 81, 10);
+}
+#wafle{
+    background-image: url('assets/images/image-waffle-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#creme{
+    background-image:url('assets/images/image-creme-brulee-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#macaron{
+    background-image: url('assets/images/image-macaron-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#tiramisu{
+    background-image: url('assets/images/image-tiramisu-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#blakava{
+    background-image: url('assets/images/image-baklava-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#pie{
+    background-image: url('assets/images/image-meringue-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#cake{
+    background-image: url('assets/images/image-cake-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#brownie{
+    background-image: url('assets/images/image-brownie-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#panna{
+    background-image: url('assets/images/image-panna-cotta-desktop.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.adicionar{
+    background-color: #007bff;
+    height: 34px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.finalizar{
+    width: 100px;
+    height: 300px;
+    border: 1px solid red;
+    left: 60%;
+
+}
