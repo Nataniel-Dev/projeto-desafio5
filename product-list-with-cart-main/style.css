@@ -22,7 +22,7 @@ main{
     margin-left: 8%;
     width: 50%;
     height: 160vh;
-    border: 1px solid red;
+
 }
 
 section{
@@ -32,7 +32,6 @@ section{
 .produto{
     width: 200px;
     height: 200px;
-    border: 1px solid blue;
     margin-left: 3%;
     border-radius: 8px;
 }
@@ -41,7 +40,7 @@ section{
     display: flex;
     margin-left: 3.5%;
     margin-bottom: 3%;
-    gap: 15%;
+    gap: 100px;
     line-height: 24px;
 }
 .titulo{
@@ -119,4 +118,32 @@ section{
     border: 1px solid red;
     left: 60%;
 
+}
+
+.container2{
+    margin-top: 3%;
+    margin-left: 50px;
+}
+.container2 p{
+    font-size: 2em;
+    color: rgb(255, 127, 8);
+}
+
+.container2 {
+    position: fixed; /* Mantém o carrinho fixo na tela */
+    right: 0;
+    top: 10%;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container2 h2 {
+    margin-bottom: 10px;
+}
+
+.container2 p {
+    font-size: 1em;
 }

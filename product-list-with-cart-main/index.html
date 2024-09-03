@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho de Compras</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <script src="script.js" defer></script></head>
 <body>
     <header>
         <div>
@@ -25,21 +25,21 @@
                 <span class="titulo">Wafle</span> <br>
                 <span class="descricao">Wafle with Berries</span> <br>
                 <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>
+                <button class="adicionar" data-id="wafle"> Adicionar</button>
             </div>
 
             <div>
-                <span class="titulo">Wafle</span> <br>
-                <span class="descricao">Wafle with Berries</span> <br>
-                <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>
+                <span class="titulo">Creme Bulce</span> <br>
+                <span class="descricao">Vanilla Bean Creme</span> <br>
+                <span class="preco">R$ 7.50</span> <br>
+                <button class="adicionar" data-id="creme"> Adicionar</button>
             </div>
 
             <div>
-                <span class="titulo">Wafle</span> <br>
-                <span class="descricao">Wafle with Berries</span> <br>
-                <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>
+                <span class="titulo">Macaron</span> <br>
+                <span class="descricao">Macaron Mix of Five</span> <br>
+                <span class="preco">R$ 8.00</span> <br>
+                <button class="adicionar" data-id="macaron"> Adicionar</button>
             </div>
         </div>
 
@@ -51,24 +51,24 @@
 
         <div class="informacoes">
             <div>
-                <span class="titulo">Wafle</span> <br>
-                <span class="descricao">Wafle with Berries</span> <br>
-                <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>
+                <span class="titulo">Tiramisu</span> <br>
+                <span class="descricao">Classic Tiramisu</span> <br>
+                <span class="preco">R$ 5.50</span> <br>
+                <button class="adicionar" data-id="tiramisu"> Adicionar</button>
             </div>
 
             <div>
-                <span class="titulo">Wafle</span> <br>
-                <span class="descricao">Wafle with Berries</span> <br>
-                <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>
+                <span class="titulo">Baklava</span> <br>
+                <span class="descricao">Pistachio Blakava</span> <br>
+                <span class="preco">R$ 4.00</span> <br>
+                <button class="adicionar" data-id="blakava"> Adicionar</button>
             </div>
 
             <div>
-                <span class="titulo">Wafle</span> <br>
-                <span class="descricao">Wafle with Berries</span> <br>
-                <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>            
+                <span class="titulo">Pie</span> <br>
+                <span class="descricao">Lemon Meriengue Pie</span> <br>
+                <span class="preco">R$ 5.00</span> <br>
+                <button class="adicionar" data-id="pie"> Adicionar</button>            
             </div>
         </div>
 
@@ -80,31 +80,33 @@
 
         <div class="informacoes">
             <div>
-                <span class="titulo">Wafle</span> <br>
-                <span class="descricao">Wafle with Berries</span> <br>
-                <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>
+                <span class="titulo">Cake</span> <br>
+                <span class="descricao">Red Velvert Cake</span> <br>
+                <span class="preco">R$ 4.50</span> <br>
+                <button class="adicionar" data-id="cake"> Adicionar</button>
             </div>
 
             <div>
-                <span class="titulo">Wafle</span> <br>
-                <span class="descricao">Wafle with Berries</span> <br>
-                <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>
+                <span class="titulo">Brownie</span> <br>
+                <span class="descricao">Salted Caramel Broniw</span> <br>
+                <span class="preco">R$ 5.50</span> <br>
+                <button class="adicionar" data-id="brownie"> Adicionar</button>
             </div>
 
             <div>
-                <span class="titulo">Wafle</span> <br>
-                <span class="descricao">Wafle with Berries</span> <br>
+                <span class="titulo">Panna Cotta</span> <br>
+                <span class="descricao">Vanilla Panna Cotta</span> <br>
                 <span class="preco">R$ 6.50</span> <br>
-                <button class="adicionar"> Adicionar</button>
+                <button class="adicionar" data-id="panna"> Adicionar</button>
             </div>
         </div>
     </main>
-    
-    <div class="nova-div">
-        <p>Este é um novo conteúdo adicionado ao lado direito.</p>
+
+    <div class="container2" id="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <p id="carrinho-conteudo">O carrinho está vazio.</p>
     </div>
+    
 
 </body>
 </html>
